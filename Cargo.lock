@@ -1986,6 +1986,8 @@ dependencies = [
 name = "solana-invoke"
 version = "0.1.0"
 dependencies = [
+ "bincode",
+ "serde",
  "solana-bpf-loader-program",
  "solana-compute-budget",
  "solana-program-runtime",
