@@ -1,5 +1,7 @@
 [workspace]
-members = []
+members = [
+    "invoke",
+]
 resolver = "2"
 
 [workspace.package]
@@ -9,3 +11,9 @@ license = "Apache-2.0"
 edition = "2021"
 
 [workspace.dependencies]
+solana-bpf-loader-program = "2.0.11"
+solana-compute-budget = "2.0.11"
+solana-program-runtime = "2.0.11"
+solana-sdk = "2.0.11"
+solana-type-overrides = "2.0.11"
+solana_rbpf = "0.8.4"
